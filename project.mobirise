@@ -24,7 +24,7 @@
         "display4Size": ".9",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": true,
+        "isScrollToTopButton": false,
         "arrowColor": "#000000"
       },
       "titlePreset": "Accessories Store",

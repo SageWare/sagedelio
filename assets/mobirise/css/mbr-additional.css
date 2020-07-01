@@ -524,6 +524,9 @@ a.text-black:focus {
   color: #b7b7b7;
 }
 /* Scroll to top button*/
+.scrollToTop_wraper {
+  display: none;
+}
 #scrollToTop a {
   background: #000000;
 }
