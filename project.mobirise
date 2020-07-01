@@ -97,7 +97,7 @@
       "settings": {
         "title": "About | Sage Delio Fine Art",
         "order": 2,
-        "header_custom": "<meta name=\"keywords\" content=\"Sage Delio, about Sage Delio, Sage Delio biography\">\n<meta http-equiv=\"Refresh\" content=\"0; url='http://sageware.github.io/sagedelio/about'\" />",
+        "header_custom": "<meta name=\"keywords\" content=\"Sage Delio, about Sage Delio, Sage Delio biography\">",
         "meta_descr": "Read the biography of Sage Delio."
       },
       "components": [
@@ -608,7 +608,7 @@
       "settings": {
         "title": "Contact | Sage Delio Fine Art",
         "order": 3,
-        "header_custom": "<meta name=\"keywords\" content=\"contact Sage Delio\">\n<meta http-equiv=\"Refresh\" content=\"0; url='http://sageware.github.io/sagedelio/contact'\" />",
+        "header_custom": "<meta name=\"keywords\" content=\"contact Sage Delio\">",
         "meta_descr": "Contact the studio representatives of Sage Delio."
       },
       "components": [
@@ -1177,7 +1177,7 @@
       "settings": {
         "title": "Store | Sage Delio Fine Art",
         "order": 1,
-        "header_custom": "<meta name=\"keywords\" content=\"Sage Delio, Fine Art for sale, Sage Delio Art, Sage Delio Painting, Sage Delio Limited Edition, Sage Delio Art for Sale, buy contemporary art, contemporary art for sale\">\n<meta http-equiv=\"Refresh\" content=\"0; url='http://sageware.github.io/sagedelio/store'\" />",
+        "header_custom": "<meta name=\"keywords\" content=\"Sage Delio, Fine Art for sale, Sage Delio Art, Sage Delio Painting, Sage Delio Limited Edition, Sage Delio Art for Sale, buy contemporary art, contemporary art for sale\">",
         "meta_descr": "Buy original fine art works and limited edition prints by Sage Delio."
       },
       "components": [
@@ -1768,7 +1768,7 @@
         "main": true,
         "title": "Gallery | Sage Delio Fine Art",
         "meta_descr": "American painter and new media fine artist, Sage Delio.",
-        "header_custom": "<meta name=\"keywords\" content=\"Sage Delio gallery, fine art, art by Sage Delio, american contemporary fine art, art gallery, art portfolio, Sage Delio painting, Sage Delio Art for Sale, paintings by Sage Delio\">\n<meta http-equiv=\"Refresh\" content=\"0; url='http://sageware.github.io/sagedelio/index'\" />",
+        "header_custom": "<meta name=\"keywords\" content=\"Sage Delio gallery, fine art, art by Sage Delio, american contemporary fine art, art gallery, art portfolio, Sage Delio painting, Sage Delio Art for Sale, paintings by Sage Delio\">",
         "footer_custom": "",
         "html_before": ""
       },
