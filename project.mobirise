@@ -85,7 +85,7 @@
     "gdpr": false,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "cookiesAlert": false,
-    "imageResize": true,
+    "imageResize": false,
     "mcShopcart": {
       "email": "deliogallery@gmail.com",
       "currency": "USD",
@@ -1932,12 +1932,12 @@
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/butterflies-web-1520x1216.png",
-                "thumb": "@PROJECT_PATH@/assets/images/butterflies-web-1520x1216-800x640.png",
+                "image": "@PROJECT_PATH@/assets/images/butterflies-web.png",
+                "thumb": "@PROJECT_PATH@/assets/images/butterflies-web-800x640.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "BUTTERFLIES (2020)",
+                "caption": "LIPSTICKS (2020)",
                 "active": true
               }
             ]
