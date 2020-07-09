@@ -80,7 +80,7 @@
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "uniqCompNum": 109,
-    "versionPublish": "4.12.4",
+    "versionPublish": "5.0.10",
     "screenshot": "screenshot.png",
     "gdpr": false,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
