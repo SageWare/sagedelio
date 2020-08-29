@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Sage Delio (Rebuilt)",
-    "currentPage": "contact.html",
+    "name": "Sage Delio (sagedelio.com)",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -50,15 +50,16 @@
     ],
     "imageResize": false,
     "uniqCompNum": 14,
-    "versionPublish": "5.0.10",
+    "versionPublish": "5.0.25",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/block-logo.png",
     "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "http://www.sagedelio.com",
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
@@ -600,7 +601,7 @@
             "gallery": [
               {
                 "tags": "2020",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/lipsticks-web.png",
@@ -613,7 +614,7 @@
               },
               {
                 "tags": "2020",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/butterflies-web.png",
@@ -626,7 +627,7 @@
               },
               {
                 "tags": "2020",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/world-view-3x3-web.png",
