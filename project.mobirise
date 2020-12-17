@@ -59,7 +59,7 @@
     "siteUrl": "http://www.sagedelio.com",
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "about.html": {
