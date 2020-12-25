@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "store.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2324,6 +2324,19 @@
                 "customStyle1": "display-7",
                 "caption": "SHE DANCES (2020)<br>",
                 "active": true
+              },
+              {
+                "tags": "2020",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/drive-to-malibu-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/drive-to-malibu-webshare-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "DRIVE TO MALIBU (2020)<br>",
+                "active": false
               },
               {
                 "tags": "2020",
