@@ -2323,10 +2323,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "WOMAN IN DRESS (2021)<br>",
-                "active": true
+                "active": false
               },
               {
-                "tags": "2021",
+                "tags": "2020",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2336,7 +2336,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "WOMAN WITH ROSES (2021)<br>",
-                "active": false
+                "active": true
               },
               {
                 "tags": "2020",
