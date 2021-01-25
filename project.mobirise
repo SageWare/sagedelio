@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "portfolio.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -51,7 +51,7 @@
       }
     ],
     "imageResize": false,
-    "uniqCompNum": 49,
+    "uniqCompNum": 50,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/block-logo.png",
@@ -3112,13 +3112,13 @@
             }
           },
           "_name": "extGallery3",
-          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#071125\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>Featured Artwork</b></h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n</section>",
-          "_anchor": "gallery",
-          "_isUserblock": true,
           "_sourceTheme": "luxurym4",
-          "_cid": "s4rNLd8GZd",
-          "_PHPplaceholders": [],
+          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#071125\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>LATEST WORK</b></h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n</section>",
           "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "extGallery3-1d",
+          "_isUserblock": true,
+          "_cid": "sn5BW9O3mP",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -3133,55 +3133,55 @@
             "gallery__filtersBtnStyle": "btn-info-outline",
             "gallery": [
               {
-                "tags": "2021",
+                "tags": "Sequence",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/woman-in-dress-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/woman-in-dress-webshare-800x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.4-first-wheel-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.4-first-wheel-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "WOMAN IN DRESS (2021)<br>",
+                "caption": "Sequence 2021.4: First Wheel (2021)",
                 "active": false
               },
               {
-                "tags": "2020",
+                "tags": "Sequence",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/woman-with-roses-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/woman-with-roses-webshare-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "WOMAN WITH ROSES (2020)<br>",
+                "caption": "Sequence 2021.3: Tiffany Mirrored (2021)",
                 "active": false
               },
               {
-                "tags": "2020",
+                "tags": "Sequence",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/web-share.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/web-share-600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "SHE DANCES (2020)<br>",
+                "caption": "Sequence 2021.2: Nuclear Code (2021)",
                 "active": false
               },
               {
-                "tags": "2020",
+                "tags": "Sequence",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/drive-to-malibu-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/drive-to-malibu-webshare-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.1-quilted-on-black-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.1-quilted-on-black-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "DRIVE TO MALIBU (2020)<br>",
+                "caption": "Sequence 2021.1: Quilted on Black (2021)",
                 "active": true
               }
             ]
