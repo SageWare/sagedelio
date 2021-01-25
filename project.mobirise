@@ -61,7 +61,7 @@
     "siteUrl": "http://www.sagedelio.com",
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "mcShopcart": {
       "email": "delioenterprises@gmail.com",
       "currency": "USD"
