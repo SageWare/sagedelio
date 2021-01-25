@@ -1745,7 +1745,7 @@
             "price_range_reset": "<a class=\"btn btn-sm btn-secondary\" data-app-btn=\"true\" href=\"\">Show all</a>",
             "shop": [
               {
-                "tags": "Original",
+                "tags": "Portrait",
                 "bestSeller": false,
                 "onSale": false,
                 "oldPrice": false,
@@ -1767,7 +1767,7 @@
                 "alt": ""
               },
               {
-                "tags": "Original",
+                "tags": "Portrait",
                 "bestSeller": false,
                 "onSale": false,
                 "oldPrice": false,
@@ -1789,7 +1789,7 @@
                 "alt": ""
               },
               {
-                "tags": "Original",
+                "tags": "Portrait",
                 "bestSeller": false,
                 "onSale": false,
                 "oldPrice": false,
