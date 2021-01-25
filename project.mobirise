@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "about.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3181,7 +3181,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.2: Nuclear Code (2021)",
+                "caption": "Sequence 2021.2: Nuclear Code",
                 "active": true
               }
             ]
@@ -3831,7 +3831,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.7: Transcendence",
+                "caption": "Sequence 2021.7: Transcendence (2021)",
                 "active": false
               },
               {
@@ -3844,7 +3844,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.6: Memory Insertion",
+                "caption": "Sequence 2021.6: Memory Insertion (2021)",
                 "active": false
               },
               {
@@ -3857,7 +3857,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.5: Algorithmic Gold",
+                "caption": "Sequence 2021.5: Algorithmic Gold (2021)",
                 "active": false
               },
               {
