@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "index.html",
+    "currentPage": "portfolio.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3821,6 +3821,19 @@
             "gallery__filtersTextStyle": "display-7",
             "gallery__filtersBtnStyle": "btn-info-outline",
             "gallery": [
+              {
+                "tags": "Sequence",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sequence-2021.8-post-perception-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.8-post-perception-10x10-72dpi-720x720.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Sequence 2021.8 - Foiled Perception (2021)<br>",
+                "active": false
+              },
               {
                 "tags": "Sequence",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
