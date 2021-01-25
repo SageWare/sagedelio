@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "about.html",
+    "currentPage": "portfolio.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2990,206 +2990,6 @@
         {
           "alias": "mobirise4-blocks/components",
           "_isSecondary": true,
-          "typeCompatible": "!isAMP",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "@overlayColor1",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradientOverlay)": {
-                "background": "linear-gradient(180deg, @overlayColor1, @overlayColor2)"
-              }
-            },
-            ".icon-focus": {
-              "display": "none"
-            },
-            ".mbr-gallery-title": {
-              "transition": "all 0.5s ease",
-              "position": "absolute",
-              "text-align": "left",
-              "display": "none",
-              "width": "100%",
-              "top": "0",
-              "right": "0",
-              "padding": "1rem",
-              "color": "#000000",
-              "font-weight": "bold",
-              "background": "transparent",
-              "-webkit-transition": "all 0.5s ease",
-              "-moz-transition": "all 0.5s ease",
-              "-o-transition": "all 0.5s ease",
-              "-ms-transition": "all 0.5s ease"
-            },
-            "ul": {
-              "font-size": "0"
-            },
-            ".mbr-gallery-filter ul li .btn": {
-              "border": "none",
-              "background-color": "transparent",
-              "color": "@tagsColor !important",
-              "padding": "0.5rem 1rem 0.6rem",
-              "border-radius": "0",
-              "margin": "0!important",
-              "transition": "padding, border 0s, transform .2s"
-            },
-            ".mbr-gallery-filter ul li .btn.active, .mbr-gallery-filter ul li.active .btn:not(.active)": {
-              "padding": "0.5rem 1rem 0.5rem",
-              "border-radius": "0 !important",
-              "position": "relative"
-            },
-            ".mbr-gallery-filter ul li .btn.active:after, .mbr-gallery-filter ul li.active .btn:not(.active):after": {
-              "content": "''",
-              "position": "absolute",
-              "bottom": "0",
-              "left": "0",
-              "width": "100%",
-              "height": "3px",
-              "background": "linear-gradient(90deg, @primaryColor, @secondaryColor)"
-            },
-            ".mbr-gallery-filter ul li": {
-              "padding": "0"
-            },
-            ".mbr-gallery-item > div:hover": {
-              ".mbr-gallery-title": {
-                "padding-bottom": "1.5rem",
-                "display": "block"
-              },
-              "&:before": {
-                "opacity": "@overlayOpacityItem !important"
-              }
-            },
-            ".btn": {
-              "background": "none",
-              "border-radius": "0 !important",
-              "&:hover": {
-                "background": "transparent !important",
-                "&:before": {
-                  "background": "transparent !important"
-                }
-              },
-              "&:before": {
-                "background-color": "transparent !important"
-              },
-              "&:focus": {
-                "box-shadow": "none"
-              }
-            },
-            ".mbr-section-title": {
-              "position": "relative",
-              "z-index": "1"
-            },
-            ".mbr-gallery-item > div > span": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "extGallery3",
-          "_sourceTheme": "luxurym4",
-          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#071125\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>LATEST WORK</b></h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "extGallery3-1d",
-          "_isUserblock": true,
-          "_cid": "sn5BW9O3mP",
-          "_protectedParams": [
-            "text_all",
-            "gallery__filtersTextStyle",
-            "gallery__filtersBtnStyle",
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "text_all": "All",
-            "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-info-outline",
-            "gallery": [
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.4-first-wheel-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.4-first-wheel-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Sequence 2021.4: Forward Wheel (2021)",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Sequence 2021.3: Tiffany Mirrored (2021)",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Sequence 2021.2: Nuclear Code (2021)",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.1-quilted-on-black-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.1-quilted-on-black-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Sequence 2021.1: Quilted on Black (2021)",
-                "active": true
-              }
-            ]
-          }
-        },
-        {
-          "alias": "mobirise4-blocks/components",
-          "_isSecondary": true,
           "typeCompatible": "type",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -3821,6 +3621,45 @@
             "gallery__filtersTextStyle": "display-7",
             "gallery__filtersBtnStyle": "btn-info-outline",
             "gallery": [
+              {
+                "tags": "Sequence",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sequence-2021.7-transcendence-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.7-transcendence-10x10-72dpi-720x720.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Sequence 2021.7: Transcendence",
+                "active": false
+              },
+              {
+                "tags": "Sequence",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-insertion-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-insertion-10x10-72dpi-720x720.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Sequence 2021.6: Memory Insertion",
+                "active": false
+              },
+              {
+                "tags": "Sequence",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sequence-2021.5-algorithmic-gold-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.5-algorithmic-gold-10x10-72dpi-720x720.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Sequence 2021.5: Algorithmic Gold",
+                "active": false
+              },
               {
                 "tags": "Sequence",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
