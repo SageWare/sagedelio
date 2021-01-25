@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "store.html",
+    "currentPage": "portfolio.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3142,7 +3142,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.4: First Wheel (2021)",
+                "caption": "Sequence 2021.4: Forward Wheel (2021)",
                 "active": false
               },
               {
@@ -3670,11 +3670,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "sn5gldx6RJ",
+          "_anchor": "menu1-19",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-19"
+          "_params": {}
         },
         {
           "alias": "mobirise4-blocks/components",
@@ -3807,6 +3807,7 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "sn5gleLXgh",
+          "_anchor": "extGallery3-1b",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -3830,7 +3831,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.4: First Wheel (2021)",
+                "caption": "Sequence 2021.4: Forward Wheel (2021)",
                 "active": true
               },
               {
@@ -3977,8 +3978,7 @@
                 "active": false
               }
             ]
-          },
-          "_anchor": "extGallery3-1b"
+          }
         },
         {
           "alias": "mobirise4-blocks/components",
@@ -4065,11 +4065,11 @@
             "<script>new Date().getFullYear() > 2010 && document.write(new Date().getFullYear());</script>"
           ],
           "_cid": "sn5glghujc",
+          "_anchor": "extFooter22-1c",
           "_protectedParams": [],
           "_global": true,
           "_once": false,
-          "_params": {},
-          "_anchor": "extFooter22-1c"
+          "_params": {}
         }
       ]
     }
