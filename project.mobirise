@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "store.html",
+    "currentPage": "portfolio.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2325,12 +2325,12 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-insertion-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-insertion-10x10-72dpi-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-storage-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-storage-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.6: Memory Insertion",
+                "caption": "Sequence 2021.6: Memory Storage  ",
                 "active": false
               },
               {
@@ -2344,7 +2344,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Sequence 2021.7: Transcendence",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Sequence",
@@ -2370,7 +2370,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Sequence 2021.2: Nuclear Code",
-                "active": true
+                "active": false
               }
             ]
           }
@@ -3014,12 +3014,12 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.10-dark-information-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.10-dark-information-10x10-72dpi-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sequence-2021.9-light-information-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.9-light-information-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.10 Dark Information (2021)",
+                "caption": "Sequence 2021.9: Light Information (2021)",
                 "active": false
               },
               {
@@ -3027,13 +3027,13 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.9-light-information-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.9-light-information-10x10-72dpi-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sequence-2021.10-dark-information-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.10-dark-information-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.9 - Light Information&nbsp;(2021)",
-                "active": true
+                "caption": "Sequence 2021.10 Dark Information (2021)",
+                "active": false
               },
               {
                 "tags": "Sequence",
@@ -3066,13 +3066,13 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-insertion-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-insertion-10x10-72dpi-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-storage-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-storage-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.6: Memory Insertion (2021)",
-                "active": false
+                "caption": "Sequence 2021.6: Memory Storage  (2020)",
+                "active": true
               },
               {
                 "tags": "Sequence",
@@ -3105,12 +3105,12 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.3: Tiffany Mirrored (2021)",
+                "caption": "Sequence 2021.2: Nuclear Code (2021)",
                 "active": false
               },
               {
@@ -3118,12 +3118,12 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.2: Nuclear Code (2021)",
+                "caption": "Sequence 2021.3: Tiffany Mirrored (2021)",
                 "active": false
               },
               {
