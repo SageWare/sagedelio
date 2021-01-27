@@ -3826,6 +3826,32 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sequence-2021.10-dark-information-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.10-dark-information-10x10-72dpi-720x720.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Sequence 2021.10 Dark Information (2021)",
+                "active": false
+              },
+              {
+                "tags": "Sequence",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sequence-2021.9-light-information-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.9-light-information-10x10-72dpi-720x720.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Sequence 2021.9 - Light Information&nbsp;(2021)",
+                "active": true
+              },
+              {
+                "tags": "Sequence",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/sequence-2021.8-foiled-perception-10x10-72dpi.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.8-foiled-perception-10x10-72dpi-720x720.jpg",
                 "alt": "",
@@ -3884,7 +3910,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Sequence 2021.4: Forward Wheel (2021)",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Sequence",
