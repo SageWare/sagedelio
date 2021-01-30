@@ -3007,7 +3007,7 @@
           "_params": {
             "text_all": "All",
             "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-info-outline",
+            "gallery__filtersBtnStyle": "btn-warning-outline",
             "gallery": [
               {
                 "tags": "Sequence",
@@ -3019,7 +3019,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.10 Dark Information (2021)",
+                "caption": "Sequence 2021.10: Dark Information (2021)",
                 "active": false
               },
               {
@@ -3072,7 +3072,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Sequence 2021.6: Memory Storage  (2020)",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Sequence",
@@ -3105,12 +3105,12 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.2: Nuclear Code (2021)",
+                "caption": "Sequence 2021.3: Tiffany Mirrored (2021)",
                 "active": false
               },
               {
@@ -3118,12 +3118,12 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi-720x720.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.3: Tiffany Mirrored (2021)",
+                "caption": "Sequence 2021.2: Nuclear Code (2021)",
                 "active": false
               },
               {
@@ -3140,6 +3140,32 @@
                 "active": false
               },
               {
+                "tags": "Construction",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/abstract-2021.1-blue-three-10x12.5-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/abstract-2021.1-blue-three-10x12.5-72dpi-720x900.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Construction 2021.2: Blue Three (2021)",
+                "active": true
+              },
+              {
+                "tags": "Construction",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/construction-2021.1-twin-duality-10x12-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/construction-2021.1-twin-duality-10x12-72dpi-720x864.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Construction 2021.1: Twin Duality (2021)",
+                "active": false
+              },
+              {
                 "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -3149,7 +3175,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "WOMAN IN DRESS (2021)<br>",
+                "caption": "Portrait 2021.1: Woman In Dress (2021)<br>",
                 "active": false
               },
               {
@@ -3162,7 +3188,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "WOMAN WITH ROSES (2020)<br>",
+                "caption": "Portrait 2020.2: Woman With Roses (2020)<br>",
                 "active": false
               },
               {
@@ -3175,72 +3201,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "SHE DANCES (2020)<br>",
-                "active": false
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/drive-to-malibu-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/drive-to-malibu-webshare-800x800.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "DRIVE TO MALIBU (2020)<br>",
-                "active": false
-              },
-              {
-                "tags": "Portrait",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/webshare.png",
-                "thumb": "@PROJECT_PATH@/assets/images/webshare-600x750.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "LADY SUN AND MOON (2020)<br>",
-                "active": false
-              },
-              {
-                "tags": "Surrealism",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/lipsticks-web.png",
-                "thumb": "@PROJECT_PATH@/assets/images/lipsticks-web-800x1000.png",
-                "alt": "A painting of three sets of lips on wooden sticks, in a desert under a gloomy sky.",
-                "title": "'Lipsticks' by Sage Delio",
-                "customStyle1": "display-7",
-                "caption": "LIPSTICKS (2020)<br>",
-                "active": false
-              },
-              {
-                "tags": "Surrealism",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/butterflies-web.png",
-                "thumb": "@PROJECT_PATH@/assets/images/butterflies-web-800x640.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "BUTTERFLIES (2020)",
-                "active": false
-              },
-              {
-                "tags": "Surrealism",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/world-view-3x3-web.png",
-                "thumb": "@PROJECT_PATH@/assets/images/world-view-3x3-web-800x800.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "WORLD VIEW (2020)",
+                "caption": "Portrait 2020.1: She Dances (2020)<br>",
                 "active": false
               }
             ]
