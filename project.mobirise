@@ -3144,13 +3144,26 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/abstract-2021.3-purple-three-10x12.5-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/abstract-2021.3-purple-three-10x12.5-72dpi-720x900.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Construction 2021.2: Blue Three (2021)",
+                "active": true
+              },
+              {
+                "tags": "Construction",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/abstract-2021.1-blue-three-10x12.5-72dpi.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/abstract-2021.1-blue-three-10x12.5-72dpi-720x900.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Construction 2021.2: Blue Three (2021)",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Construction",
