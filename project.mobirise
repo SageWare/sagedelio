@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "portfolio.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2330,7 +2330,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.6: Memory Storage  ",
+                "caption": "Memory Storage  ",
                 "active": false
               },
               {
@@ -2343,7 +2343,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.7: Transcendence",
+                "caption": "Transcendence",
                 "active": true
               },
               {
@@ -2356,7 +2356,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.5: Algorithmic Gold",
+                "caption": "Algorithmic Gold",
                 "active": false
               },
               {
@@ -2369,7 +2369,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.2: Nuclear Code",
+                "caption": "Nuclear Code",
                 "active": false
               }
             ]
@@ -3019,7 +3019,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.10: Dark Information (2021)",
+                "caption": "Dark Information (2021)",
                 "active": false
               },
               {
@@ -3032,7 +3032,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.9: Light Information (2021)",
+                "caption": "Light Information (2021)",
                 "active": false
               },
               {
@@ -3045,7 +3045,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.8 - Foiled Perception (2021)<br>",
+                "caption": "Foiled Perception (2021)<br>",
                 "active": false
               },
               {
@@ -3058,7 +3058,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.7: Transcendence (2021)",
+                "caption": "Transcendence (2021)",
                 "active": false
               },
               {
@@ -3071,7 +3071,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.6: Memory Storage  (2020)",
+                "caption": "Memory Storage  (2020)",
                 "active": false
               },
               {
@@ -3084,21 +3084,8 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.5: Algorithmic Gold (2021)",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.4-first-wheel-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.4-first-wheel-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Sequence 2021.4: Forward Wheel (2021)",
-                "active": false
+                "caption": "Algorithmic Gold (2021)",
+                "active": true
               },
               {
                 "tags": "Sequence",
@@ -3110,7 +3097,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.3: Tiffany Mirrored (2021)",
+                "caption": "Tiffany Mirrored (2021)",
                 "active": false
               },
               {
@@ -3123,7 +3110,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.2: Nuclear Code (2021)",
+                "caption": "Nuclear Code (2021)",
                 "active": false
               },
               {
@@ -3136,7 +3123,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Sequence 2021.1: Quilted on Black (2021)",
+                "caption": "Quilted on Black (2021)",
                 "active": false
               },
               {
@@ -3149,8 +3136,8 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Construction 2021.3: Purple Three (2021)",
-                "active": true
+                "caption": "Purple Three (2021)",
+                "active": false
               },
               {
                 "tags": "Construction",
@@ -3162,7 +3149,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Construction 2021.2: Blue Three (2021)",
+                "caption": "Blue Three (2021)",
                 "active": false
               },
               {
@@ -3175,7 +3162,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Construction 2021.1: Twin Duality (2021)",
+                "caption": "Twin Duality (2021)",
                 "active": false
               },
               {
@@ -3188,7 +3175,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Portrait 2021.1: Woman In Dress (2021)<br>",
+                "caption": "Woman In Dress (2021)<br>",
                 "active": false
               },
               {
@@ -3201,7 +3188,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Portrait 2020.2: Woman With Roses (2020)<br>",
+                "caption": "Woman With Roses (2020)<br>",
                 "active": false
               },
               {
@@ -3214,7 +3201,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Portrait 2020.1: She Dances (2020)<br>",
+                "caption": "She Dances (2020)<br>",
                 "active": false
               }
             ]
