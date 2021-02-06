@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "about.html",
+    "currentPage": "portfolio.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3085,7 +3085,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Algorithmic Gold (2021)",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Sequence",
@@ -3114,19 +3114,6 @@
                 "active": false
               },
               {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.1-quilted-on-black-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.1-quilted-on-black-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Quilted on Black (2021)",
-                "active": false
-              },
-              {
                 "tags": "Construction",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -3150,20 +3137,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Blue Three (2021)",
-                "active": false
-              },
-              {
-                "tags": "Construction",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/construction-2021.1-twin-duality-10x12-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/construction-2021.1-twin-duality-10x12-72dpi-720x864.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Twin Duality (2021)",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Portrait",
