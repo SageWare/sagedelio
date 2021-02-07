@@ -3118,26 +3118,13 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/abstract-2021.3-purple-three-10x12.5-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/abstract-2021.3-purple-three-10x12.5-72dpi-720x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/construction-2021.5-red-three-10x12.5-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/construction-2021.5-red-three-10x12.5-72dpi-720x900.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Purple Three (2021)",
-                "active": false
-              },
-              {
-                "tags": "Construction",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/abstract-2021.1-blue-three-10x12.5-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/abstract-2021.1-blue-three-10x12.5-72dpi-720x900.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Blue Three (2021)",
-                "active": false
+                "caption": "Red Three (2021)",
+                "active": true
               },
               {
                 "tags": "Construction",
@@ -3150,6 +3137,19 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Orange Three (2021)",
+                "active": false
+              },
+              {
+                "tags": "Construction",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/construction-2021.6-yellow-three-10x12.5-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/construction-2021.6-yellow-three-10x12.5-72dpi-720x900.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Yellow Three (2021)",
                 "active": false
               },
               {
@@ -3170,25 +3170,25 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/construction-2021.5-red-three-10x12.5-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/construction-2021.5-red-three-10x12.5-72dpi-720x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/abstract-2021.1-blue-three-10x12.5-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/abstract-2021.1-blue-three-10x12.5-72dpi-720x900.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Red Three (2021)",
-                "active": true
+                "caption": "Blue Three (2021)",
+                "active": false
               },
               {
                 "tags": "Construction",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/construction-2021.6-yellow-three-10x12.5-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/construction-2021.6-yellow-three-10x12.5-72dpi-720x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/abstract-2021.3-purple-three-10x12.5-72dpi.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/abstract-2021.3-purple-three-10x12.5-72dpi-720x900.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Yellow Three (2021)",
+                "caption": "Purple Three (2021)",
                 "active": false
               },
               {
