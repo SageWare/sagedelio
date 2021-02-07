@@ -3124,7 +3124,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Red Three (2021)",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Construction",
@@ -3228,7 +3228,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "She Dances (2020)<br>",
-                "active": false
+                "active": true
               }
             ]
           }
