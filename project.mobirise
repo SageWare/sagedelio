@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "about.html",
+    "currentPage": "art.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3011,6 +3011,45 @@
             "gallery__filtersBtnStyle": "btn-warning-outline",
             "gallery": [
               {
+                "tags": "Portrait",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/woman-in-dress-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/woman-in-dress-webshare-800x1000.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Woman In Dress (2021)<br>",
+                "active": false
+              },
+              {
+                "tags": "Portrait",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/woman-with-roses-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/woman-with-roses-webshare-800x1200.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Woman With Roses (2020)<br>",
+                "active": false
+              },
+              {
+                "tags": "Portrait",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/web-share.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/web-share-600x900.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "She Dances (2020)<br>",
+                "active": false
+              },
+              {
                 "tags": "Sequence",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -3126,45 +3165,6 @@
                 "customStyle1": "display-7",
                 "caption": "Blue Three (2021)",
                 "active": true
-              },
-              {
-                "tags": "Portrait",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/woman-in-dress-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/woman-in-dress-webshare-800x1000.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Woman In Dress (2021)<br>",
-                "active": false
-              },
-              {
-                "tags": "Portrait",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/woman-with-roses-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/woman-with-roses-webshare-800x1200.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Woman With Roses (2020)<br>",
-                "active": false
-              },
-              {
-                "tags": "Portrait",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/web-share.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/web-share-600x900.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "She Dances (2020)<br>",
-                "active": false
               }
             ]
           }
