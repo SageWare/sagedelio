@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "art.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2359,19 +2359,6 @@
                 "customStyle1": "display-7",
                 "caption": "She Dances (2020)<br>",
                 "active": true
-              },
-              {
-                "tags": "Portrait",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/changeling-12z12-webshare-800x800.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/changeling-12z12-webshare-800x800-800x800.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Changeling (2021)<br>",
-                "active": false
               }
             ]
           }
@@ -3047,19 +3034,6 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "She Dances (2020)<br>",
-                "active": false
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/changeling-12z12-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/changeling-12z12-webshare-800x800.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Changling (2021)<br>",
                 "active": true
               }
             ]
