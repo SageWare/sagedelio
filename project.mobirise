@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "music.html",
+    "currentPage": "art.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2358,20 +2358,20 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "She Dances (2020)<br>",
-                "active": false
+                "active": true
               },
               {
-                "tags": "Sequence",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.10-dark-information-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.10-dark-information-10x10-72dpi-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/changeling-12z12-webshare-800x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/changeling-12z12-webshare-800x800-800x800.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Dark Information (2021)",
-                "active": true
+                "caption": "Changeling (2021)<br>",
+                "active": false
               }
             ]
           }
@@ -3050,120 +3050,16 @@
                 "active": false
               },
               {
-                "tags": "Sequence",
+                "tags": "Abstract",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.10-dark-information-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.10-dark-information-10x10-72dpi-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/changeling-12z12-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/changeling-12z12-webshare-800x800.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Dark Information (2021)",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.9-light-information-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.9-light-information-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Light Information (2021)",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.8-foiled-perception-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.8-foiled-perception-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Foiled Perception (2021)<br>",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.7-transcendence-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.7-transcendence-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Transcendence (2021)",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-storage-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.6-memory-storage-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Memory Storage  (2021)",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.3-tiffany-mirrored-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tiffany Mirrored (2021)",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sequence-2021.5-algorithmic-gold-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sequence-2021.5-algorithmic-gold-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Algorithmic Gold (2021)",
-                "active": false
-              },
-              {
-                "tags": "Sequence",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2021-sequence-2021.2-nuclear-code-10x10-72dpi-720x720.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Nuclear Code (2021)",
-                "active": false
-              },
-              {
-                "tags": "Construction",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/abstract-2021.1-blue-three-10x12.5-72dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/abstract-2021.1-blue-three-10x12.5-72dpi-720x900.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Blue Three (2021)",
+                "caption": "Changling (2021)<br>",
                 "active": true
               }
             ]
