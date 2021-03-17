@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "index.html",
+    "currentPage": "art.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3086,6 +3086,19 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Airborne (2021)<br>",
+                "active": false
+              },
+              {
+                "tags": "Still Life",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/jar-of-sand-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/jar-of-sand-webshare-600x900.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Jar of Sand (2021)<br>",
                 "active": true
               }
             ]
