@@ -3099,6 +3099,19 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Jar of Sand (2021)<br>",
+                "active": false
+              },
+              {
+                "tags": "Still Life",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/milk-and-honey-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milk-and-honey-webshare-800x1000.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Milk and Honey (2021)<br>",
                 "active": true
               }
             ]
