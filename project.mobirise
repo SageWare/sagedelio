@@ -3139,6 +3139,19 @@
                 "customStyle1": "display-7",
                 "caption": "Drawing 2021.2 (2021)<br>",
                 "active": false
+              },
+              {
+                "tags": "Drawing",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/drawing-2021.3-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/drawing-2021.3-webshare-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Drawing 2021.3 (2021)<br>",
+                "active": false
               }
             ]
           }
