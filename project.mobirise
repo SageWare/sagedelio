@@ -3063,6 +3063,45 @@
                 "active": true
               },
               {
+                "tags": "Still Life",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sunflower-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sunflower-webshare-600x900.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Sunflower (2021)<br>",
+                "active": false
+              },
+              {
+                "tags": "Still Life",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/milk-and-honey-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milk-and-honey-webshare-800x1000.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Milk and Honey (2021)<br>",
+                "active": false
+              },
+              {
+                "tags": "Still Life",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/jar-of-sand-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/jar-of-sand-webshare-600x900.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Jar of Sand (2021)<br>",
+                "active": false
+              },
+              {
                 "tags": "Abstract",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -3086,45 +3125,6 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Airborne (2021)<br>",
-                "active": false
-              },
-              {
-                "tags": "Still Life",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sunflower-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sunflower-webshare-600x900.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Sunflower (2021)<br>",
-                "active": false
-              },
-              {
-                "tags": "Still Life",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/jar-of-sand-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/jar-of-sand-webshare-600x900.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Jar of Sand (2021)<br>",
-                "active": false
-              },
-              {
-                "tags": "Still Life",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/milk-and-honey-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/milk-and-honey-webshare-800x1000.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Milk and Honey (2021)<br>",
                 "active": false
               }
             ]
