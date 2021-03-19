@@ -3050,6 +3050,19 @@
                 "active": false
               },
               {
+                "tags": "Still Life",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/blind-purpose-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/blind-purpose-webshare-600x900.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Milk and Honey (2021)<br>",
+                "active": false
+              },
+              {
                 "tags": "Abstract",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
