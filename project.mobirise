@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sage Delio",
-    "currentPage": "music.html",
+    "currentPage": "art.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3145,6 +3145,19 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Airborne (2021)<br>",
+                "active": false
+              },
+              {
+                "tags": "Abstract",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/hexaglass-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/hexaglass-webshare-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Hexaglass (2021)<br>",
                 "active": false
               },
               {
