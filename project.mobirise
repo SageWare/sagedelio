@@ -3165,19 +3165,6 @@
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/glass-petals-webshare-1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/glass-petals-webshare-1-800x800.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Glass Petals (2021)<br>",
-                "active": true
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/bioglass-webshare.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/bioglass-webshare-800x800.jpg",
                 "alt": "",
@@ -3185,6 +3172,32 @@
                 "customStyle1": "display-7",
                 "caption": "Bioglass (2021)<br>",
                 "active": false
+              },
+              {
+                "tags": "Abstract",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/circglass-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/circglass-webshare-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": " Circglass (2021)<br>",
+                "active": false
+              },
+              {
+                "tags": "Abstract",
+                "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/glass-petals-webshare-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/glass-petals-webshare-1-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Glass Petals (2021)<br>",
+                "active": true
               }
             ]
           }
