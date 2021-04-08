@@ -3148,7 +3148,7 @@
                 "active": false
               },
               {
-                "tags": "Abstract",
+                "tags": "Delft",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3161,7 +3161,7 @@
                 "active": false
               },
               {
-                "tags": "Abstract",
+                "tags": "Delft",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3171,10 +3171,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Bioglass (2021)<br>",
-                "active": true
+                "active": false
               },
               {
-                "tags": "Abstract",
+                "tags": "Delft",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3187,7 +3187,7 @@
                 "active": false
               },
               {
-                "tags": "Abstract",
+                "tags": "Delft",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3200,7 +3200,7 @@
                 "active": false
               },
               {
-                "tags": "Abstract",
+                "tags": "Delft",
                 "videoPreview": "@THEME_PATH@-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3210,7 +3210,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tiled Door (2021)<br>",
-                "active": false
+                "active": true
               }
             ]
           }
