@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "artwork.html",
+    "currentPage": "store.html",
     "theme": {
       "name": "luxurym4",
       "title": "LuxuryM4",
@@ -32,7 +32,8 @@
       "presetSourceTheme": "luxurym4",
       "additionalSetColors": [
         "#ff0073",
-        "#6afbd8"
+        "#6afbd8",
+        "#b4b3b3"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -3423,11 +3424,11 @@
             },
             ".article-counter-left": {
               "text-align": "center",
-              "color": "#cccccc"
+              "color": "#b4b3b3"
             },
             ".article-counter-right": {
               "text-align": "center",
-              "color": "#cccccc"
+              "color": "#b4b3b3"
             },
             ".article-title-right": {
               "text-align": "center"
@@ -3482,11 +3483,11 @@
             },
             ".article-counter-left": {
               "text-align": "center",
-              "color": "#cccccc"
+              "color": "#b4b3b3"
             },
             ".article-counter-right": {
               "text-align": "center",
-              "color": "#cccccc"
+              "color": "#b4b3b3"
             },
             ".article-title-right": {
               "text-align": "center"
