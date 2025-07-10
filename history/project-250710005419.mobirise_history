@@ -73,7 +73,9 @@
     "uniqCompNum": 107,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/sagef/Downloads/MOBIRISE%20NON-SYNC"
   },
   "pages": {
     "index.html": {
