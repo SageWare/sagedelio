@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "artwork.html",
+    "currentPage": "poetry.html",
     "theme": {
       "name": "luxurym4",
       "title": "LuxuryM4",
@@ -65,24 +65,26 @@
     ],
     "imageResize": false,
     "favicon": "@PROJECT_PATH@/assets/images/block-logo-119x119-119x119.png",
-    "mbrsiteDomain": "sm7nczw2qw",
+    "mbrsiteDomain": "1m6x5kp6uf",
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://sagedelio.com",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 141,
+    "uniqCompNum": 136,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/sagef/Downloads/TEMP%20WEBSITES",
     "usedWebp": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Sage Delio | Visual Artist, Musician, & Creative Technologist",
+        "title": "Home | Sage Delio",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -458,7 +460,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "luxurym4",
-          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" unchecked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-2y",
           "_isUserblock": true,
           "_cid": "uQw9fG96K8",
@@ -1071,7 +1073,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "luxurym4",
-          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" unchecked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-2y",
           "_isUserblock": true,
           "_cid": "uQw9fG96K8",
@@ -1649,7 +1651,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "luxurym4",
-          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" unchecked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-2y",
           "_isUserblock": true,
           "_cid": "uQw9fG96K8",
@@ -2226,7 +2228,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "luxurym4",
-          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" unchecked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-2y",
           "_isUserblock": true,
           "_cid": "uQw9fG96K8",
@@ -2864,12 +2866,10 @@
           },
           "_name": "menu1",
           "_sourceTheme": "luxurym4",
-          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" unchecked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-2y",
           "_isUserblock": true,
           "_cid": "uQw9fG96K8",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
@@ -2980,30 +2980,6 @@
           "_params": {}
         },
         {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#ff0073"
-            },
-            "H2": {
-              "color": "#000000"
-            }
-          },
-          "_name": "content4",
-          "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>COLLECTIONS</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><p><b><b><a href=\"https://sagedelio.com/#Chromatic-Fractures\" class=\"text-black text-primary\"><b>Chromatic Fractures</b></a><br></b><span style=\"font-size: 1.2rem;\"><a href=\"https://sagedelio.com/#Muted-Prism-Series\" class=\"text-primary\"><b>Muted Prism Series</b></a><br><a href=\"https://sagedelio.com/#Human-Form-in-Subtractive-Registers\" class=\"text-primary\"><b>Human Form in Subtractive Registers</b></a><br><a href=\"https://sagedelio.com/#Sketchbook\" class=\"text-primary\"><b>Sketchbook</b></a></span></b></p><p></p></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content4-3w",
-          "_isUserblock": true,
-          "_cid": "vimF2rU52I",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
           "_name": "extGallery3",
           "_sourceTheme": "luxurym4",
           "_styles": {
@@ -3127,499 +3103,12 @@
               "color": "#ffffff"
             }
           },
-          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#071125\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>Chromatic Fractures</b></h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\" mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#071125\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>ARTWORK</b></h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\" mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
-          "_anchor": "Chromatic-Fractures",
+          "_anchor": "extGallery3-2s",
           "_isUserblock": true,
-          "_cid": "vimwHVlNEL",
-          "_protectedParams": [
-            "text_all",
-            "gallery__filtersTextStyle",
-            "gallery__filtersBtnStyle",
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "text_all": "All",
-            "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-warning-outline",
-            "gallery": [
-              {
-                "tags": "Geometric",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/the-fold-between-states-sage-delio-169-100dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/the-fold-between-states-sage-delio-169-100dpi-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "The Fold Between States (2026)<br>",
-                "active": false
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/resonance-of-a-fractured-city-sage-delio-169-100dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/resonance-of-a-fractured-city-sage-delio-169-100dpi-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Resonance of a Fractured City (2026)<br>",
-                "active": false
-              },
-              {
-                "tags": "Geometric",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/hypercube-in-suspension-sage-delio-169-100dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/hypercube-in-suspension-sage-delio-169-100dpi-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Hypercube in Suspension (2026)<br>",
-                "active": true
-              },
-              {
-                "tags": "Geometric",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/rupture-of-the-horizon-gate-sage-delio-169-100dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/rupture-of-the-horizon-gate-sage-delio-169-100dpi-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Resonance of a Fractured City (2026)<br>",
-                "active": false
-              },
-              {
-                "tags": "Geometric",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/the-circular-authority-sage-delio-169-100dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/the-circular-authority-sage-delio-169-100dpi-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "The Circular Authority (2026)<br>",
-                "active": false
-              },
-              {
-                "tags": "Geometric",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/aperture-of-folded-light-sage-delio-169-100dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/aperture-of-folded-light-sage-delio-169-100dpi-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Aperture Of Folded Light (2026)<br>",
-                "active": false
-              },
-              {
-                "tags": "Geometric",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/topography-of-a-synthetic-core-sage-delio-169-100dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/topography-of-a-synthetic-core-sage-delio-169-100dpi-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Topography of a Synthetic Core (2026)<br>",
-                "active": false
-              }
-            ]
-          }
-        },
-        {
-          "_name": "extGallery3",
-          "_sourceTheme": "luxurym4",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "@overlayColor1",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradientOverlay)": {
-                "background": "linear-gradient(180deg, @overlayColor1, @overlayColor2)"
-              }
-            },
-            ".icon-focus": {
-              "display": "none"
-            },
-            ".mbr-gallery-title": {
-              "transition": "all 0.5s ease",
-              "position": "absolute",
-              "text-align": "left",
-              "display": "none",
-              "width": "100%",
-              "top": "0",
-              "right": "0",
-              "padding": "1rem",
-              "color": "#000000",
-              "font-weight": "bold",
-              "background": "transparent",
-              "-webkit-transition": "all 0.5s ease",
-              "-moz-transition": "all 0.5s ease",
-              "-o-transition": "all 0.5s ease",
-              "-ms-transition": "all 0.5s ease"
-            },
-            "ul": {
-              "font-size": "0"
-            },
-            ".mbr-gallery-filter ul li .btn": {
-              "border": "none",
-              "background-color": "transparent",
-              "color": "@tagsColor !important",
-              "padding": "0.5rem 1rem 0.6rem",
-              "border-radius": "0",
-              "margin": "0!important",
-              "transition": "padding, border 0s, transform .2s"
-            },
-            ".mbr-gallery-filter ul li .btn.active, .mbr-gallery-filter ul li.active .btn:not(.active)": {
-              "padding": "0.5rem 1rem 0.5rem",
-              "border-radius": "0 !important",
-              "position": "relative"
-            },
-            ".mbr-gallery-filter ul li .btn.active:after, .mbr-gallery-filter ul li.active .btn:not(.active):after": {
-              "content": "''",
-              "position": "absolute",
-              "bottom": "0",
-              "left": "0",
-              "width": "100%",
-              "height": "3px",
-              "background": "linear-gradient(90deg, @primaryColor, @secondaryColor)"
-            },
-            ".mbr-gallery-filter ul li": {
-              "padding": "0"
-            },
-            ".mbr-gallery-item > div:hover": {
-              ".mbr-gallery-title": {
-                "padding-bottom": "1.5rem",
-                "display": "block"
-              },
-              "&:before": {
-                "opacity": "@overlayOpacityItem !important"
-              }
-            },
-            ".btn": {
-              "background": "none",
-              "border-radius": "0 !important",
-              "&:hover": {
-                "background": "transparent !important",
-                "&:before": {
-                  "background": "transparent !important"
-                }
-              },
-              "&:before": {
-                "background-color": "transparent !important"
-              },
-              "&:focus": {
-                "box-shadow": "none"
-              }
-            },
-            ".mbr-section-title": {
-              "position": "relative",
-              "z-index": "1",
-              "color": "#071125"
-            },
-            ".mbr-gallery-item > div > span": {
-              "color": "#ffffff"
-            }
-          },
-          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#071125\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>Muted Prism Series</b></h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\" mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "Muted-Prism-Series",
-          "_isUserblock": true,
-          "_cid": "vimzOAkfTi",
-          "_protectedParams": [
-            "text_all",
-            "gallery__filtersTextStyle",
-            "gallery__filtersBtnStyle",
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "text_all": "All",
-            "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-warning-outline",
-            "gallery": [
-              {
-                "tags": "Abstract",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2022-circular-plates-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2022-circular-plates-webshare-600x900.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Circular Plates (2022)<br>",
-                "active": false
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/circular-plates-sage-delio-169-100dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/circular-plates-sage-delio-169-100dpi-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Circular Plates² (2026)<br>",
-                "active": false
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2022-the-staircase-9x6-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2022-the-staircase-9x6-webshare-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "The Staircase (2022)<br>",
-                "active": false
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2022-prism-machine-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2022-prism-machine-webshare-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Prism Machine (2022)<br>",
-                "active": false
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2022-pull-back-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2022-pull-back-webshare-800x800.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<p>Pull Back&nbsp;(2022)<br></p>",
-                "active": false
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2022-tolerance-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2022-tolerance-webshare-800x800.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tolerance (2022)<br>",
-                "active": true
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2022-the-divide-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2022-the-divide-webshare-800x1100.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "The Divide (2022)<br>",
-                "active": false
-              },
-              {
-                "tags": "Abstract",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/the-divide-sage-delio-169-100dpi.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/the-divide-sage-delio-169-100dpi-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "The Divide² (2026)<br>",
-                "active": false
-              }
-            ]
-          }
-        },
-        {
-          "_name": "extGallery3",
-          "_sourceTheme": "luxurym4",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "@overlayColor1",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradientOverlay)": {
-                "background": "linear-gradient(180deg, @overlayColor1, @overlayColor2)"
-              }
-            },
-            ".icon-focus": {
-              "display": "none"
-            },
-            ".mbr-gallery-title": {
-              "transition": "all 0.5s ease",
-              "position": "absolute",
-              "text-align": "left",
-              "display": "none",
-              "width": "100%",
-              "top": "0",
-              "right": "0",
-              "padding": "1rem",
-              "color": "#000000",
-              "font-weight": "bold",
-              "background": "transparent",
-              "-webkit-transition": "all 0.5s ease",
-              "-moz-transition": "all 0.5s ease",
-              "-o-transition": "all 0.5s ease",
-              "-ms-transition": "all 0.5s ease"
-            },
-            "ul": {
-              "font-size": "0"
-            },
-            ".mbr-gallery-filter ul li .btn": {
-              "border": "none",
-              "background-color": "transparent",
-              "color": "@tagsColor !important",
-              "padding": "0.5rem 1rem 0.6rem",
-              "border-radius": "0",
-              "margin": "0!important",
-              "transition": "padding, border 0s, transform .2s"
-            },
-            ".mbr-gallery-filter ul li .btn.active, .mbr-gallery-filter ul li.active .btn:not(.active)": {
-              "padding": "0.5rem 1rem 0.5rem",
-              "border-radius": "0 !important",
-              "position": "relative"
-            },
-            ".mbr-gallery-filter ul li .btn.active:after, .mbr-gallery-filter ul li.active .btn:not(.active):after": {
-              "content": "''",
-              "position": "absolute",
-              "bottom": "0",
-              "left": "0",
-              "width": "100%",
-              "height": "3px",
-              "background": "linear-gradient(90deg, @primaryColor, @secondaryColor)"
-            },
-            ".mbr-gallery-filter ul li": {
-              "padding": "0"
-            },
-            ".mbr-gallery-item > div:hover": {
-              ".mbr-gallery-title": {
-                "padding-bottom": "1.5rem",
-                "display": "block"
-              },
-              "&:before": {
-                "opacity": "@overlayOpacityItem !important"
-              }
-            },
-            ".btn": {
-              "background": "none",
-              "border-radius": "0 !important",
-              "&:hover": {
-                "background": "transparent !important",
-                "&:before": {
-                  "background": "transparent !important"
-                }
-              },
-              "&:before": {
-                "background-color": "transparent !important"
-              },
-              "&:focus": {
-                "box-shadow": "none"
-              }
-            },
-            ".mbr-section-title": {
-              "position": "relative",
-              "z-index": "1",
-              "color": "#071125"
-            },
-            ".mbr-gallery-item > div > span": {
-              "color": "#ffffff"
-            }
-          },
-          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#071125\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>Human Form in Subtractive Registers</b></h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\" mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "Human-Form-in-Subtractive-Registers",
-          "_isUserblock": true,
-          "_cid": "vimwH46e7e",
+          "_cid": "tlWtpoHWO6",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -3647,6 +3136,19 @@
                 "active": false
               },
               {
+                "tags": "Abstract",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/2022-circular-plates-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2022-circular-plates-webshare-600x900.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Circular Plates (2022)<br>",
+                "active": false
+              },
+              {
                 "tags": "Portrait",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -3657,6 +3159,19 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Jolie (2022)<br>",
+                "active": false
+              },
+              {
+                "tags": "Abstract",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/2022-the-staircase-9x6-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2022-the-staircase-9x6-webshare-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "The Staircase (2022)<br>",
                 "active": false
               },
               {
@@ -3686,17 +3201,17 @@
                 "active": false
               },
               {
-                "tags": "Landscape",
+                "tags": "Abstract",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2022-umbrellas-webshare.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2022-umbrellas-webshare-800x400.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2022-prism-machine-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2022-prism-machine-webshare-800x533.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Umbrellas (2022)<br>",
-                "active": true
+                "caption": "Prism Machine (2022)<br>",
+                "active": false
               },
               {
                 "tags": "Landscape",
@@ -3723,155 +3238,61 @@
                 "customStyle1": "display-7",
                 "caption": "<p>Seated Below The Clouds (2022)<br></p>",
                 "active": false
-              }
-            ]
-          }
-        },
-        {
-          "_name": "extGallery3",
-          "_sourceTheme": "luxurym4",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "@overlayColor1",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradientOverlay)": {
-                "background": "linear-gradient(180deg, @overlayColor1, @overlayColor2)"
-              }
-            },
-            ".icon-focus": {
-              "display": "none"
-            },
-            ".mbr-gallery-title": {
-              "transition": "all 0.5s ease",
-              "position": "absolute",
-              "text-align": "left",
-              "display": "none",
-              "width": "100%",
-              "top": "0",
-              "right": "0",
-              "padding": "1rem",
-              "color": "#000000",
-              "font-weight": "bold",
-              "background": "transparent",
-              "-webkit-transition": "all 0.5s ease",
-              "-moz-transition": "all 0.5s ease",
-              "-o-transition": "all 0.5s ease",
-              "-ms-transition": "all 0.5s ease"
-            },
-            "ul": {
-              "font-size": "0"
-            },
-            ".mbr-gallery-filter ul li .btn": {
-              "border": "none",
-              "background-color": "transparent",
-              "color": "@tagsColor !important",
-              "padding": "0.5rem 1rem 0.6rem",
-              "border-radius": "0",
-              "margin": "0!important",
-              "transition": "padding, border 0s, transform .2s"
-            },
-            ".mbr-gallery-filter ul li .btn.active, .mbr-gallery-filter ul li.active .btn:not(.active)": {
-              "padding": "0.5rem 1rem 0.5rem",
-              "border-radius": "0 !important",
-              "position": "relative"
-            },
-            ".mbr-gallery-filter ul li .btn.active:after, .mbr-gallery-filter ul li.active .btn:not(.active):after": {
-              "content": "''",
-              "position": "absolute",
-              "bottom": "0",
-              "left": "0",
-              "width": "100%",
-              "height": "3px",
-              "background": "linear-gradient(90deg, @primaryColor, @secondaryColor)"
-            },
-            ".mbr-gallery-filter ul li": {
-              "padding": "0"
-            },
-            ".mbr-gallery-item > div:hover": {
-              ".mbr-gallery-title": {
-                "padding-bottom": "1.5rem",
-                "display": "block"
               },
-              "&:before": {
-                "opacity": "@overlayOpacityItem !important"
-              }
-            },
-            ".btn": {
-              "background": "none",
-              "border-radius": "0 !important",
-              "&:hover": {
-                "background": "transparent !important",
-                "&:before": {
-                  "background": "transparent !important"
-                }
-              },
-              "&:before": {
-                "background-color": "transparent !important"
-              },
-              "&:focus": {
-                "box-shadow": "none"
-              }
-            },
-            ".mbr-section-title": {
-              "position": "relative",
-              "z-index": "1",
-              "color": "#071125"
-            },
-            ".mbr-gallery-item > div > span": {
-              "color": "#ffffff"
-            }
-          },
-          "_customHTML": "<section class=\"extGallery mbr-gallery mbr-slider-carousel\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#071125\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>Sketchbook</b><b><br></b></h2>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\" mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "Sketchbook",
-          "_isUserblock": true,
-          "_cid": "vimu9v01E4",
-          "_protectedParams": [
-            "text_all",
-            "gallery__filtersTextStyle",
-            "gallery__filtersBtnStyle",
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "text_all": "All",
-            "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-warning-outline",
-            "gallery": [
               {
-                "tags": "Portrait, Color",
+                "tags": "Abstract",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/2022-pull-back-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2022-pull-back-webshare-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<p>Pull Back&nbsp;(2022)<br></p>",
+                "active": false
+              },
+              {
+                "tags": "Abstract",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/2022-tolerance-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2022-tolerance-webshare-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tolerance (2022)<br>",
+                "active": false
+              },
+              {
+                "tags": "Landscape",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/2022-umbrellas-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2022-umbrellas-webshare-800x400.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Umbrellas (2022)<br>",
+                "active": false
+              },
+              {
+                "tags": "Abstract",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/2022-the-divide-webshare.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2022-the-divide-webshare-800x1100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "The Divide (2022)<br>",
+                "active": false
+              },
+              {
+                "tags": "Sketches",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3884,7 +3305,7 @@
                 "active": false
               },
               {
-                "tags": "Portrait, Color",
+                "tags": "Sketches",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3897,7 +3318,7 @@
                 "active": false
               },
               {
-                "tags": "Portrait, Color",
+                "tags": "Sketches",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3910,7 +3331,7 @@
                 "active": false
               },
               {
-                "tags": "Portrait, Color",
+                "tags": "Sketches",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -3924,6 +3345,26 @@
               }
             ]
           }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary-outline\" href=\"https://sagedelio.com/store\" data-app-placeholder=\"Type Text\">BROWSE ARTWORK FOR SALE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content8-i",
+          "_isUserblock": true,
+          "_cid": "sJXqljiLC5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "_name": "footer7",
@@ -4406,7 +3847,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "luxurym4",
-          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" unchecked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-2y",
           "_isUserblock": true,
           "_cid": "uQw9fG96K8",
@@ -4984,7 +4425,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "luxurym4",
-          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" unchecked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-2y",
           "_isUserblock": true,
           "_cid": "uQw9fG96K8",
@@ -5711,7 +5152,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "luxurym4",
-          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" unchecked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu1 luxurym4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <header>Additional</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                'navbar-expand-lg':!collapsed,\n                'collapsed':collapsed}\">\n        <div class=\"social-block\" mbr-if=\"showIcons\">\n            <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\">\n                <a href=\"https://sagedelio.com/charities\"><span mbr-icon class=\"icon1 mbr-iconfont mbrib-hearth\"></span></a>\n                \n                \n                \n            </div>\n            <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\">\n                <a href=\"https://facebook.com/sagedelioofficial\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(7, 17, 37); fill: rgb(7, 17, 37);\"></span></a>\n                <a href=\"https://open.spotify.com/artist/7HUrRpxnnIpU9Z56cB7ex8\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-spotify socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a>\n            <a href=\"https://www.instagram.com/sagedelio_\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.imdb.com/name/nm12033732/\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-imdb socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.youtube.com/@SageDelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a><a href=\"https://www.tiktok.com/@sagedelio\" target=\"_blank\"><span mbr-icon class=\"icon1 mbr-iconfont socicon-tiktok socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span></a></div>\n        </div>\n        <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://sagedelio.com/\">\n                    <img src=\"@PROJECT_PATH@/assets/images/menuimage2-429x181.jpg\" alt=\"Sage Delio Official Logo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"text-primary\" data-app-selector=\".navbar-caption\" href=\"https://sagedelio.com/\" data-app-placeholder=\"Type Text\">SAGE DELIO</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORKS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/poetry\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">POETRY<br></a><a class=\"dropdown-item text-primary\" href=\"https://sagedelio.com/music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MUSIC</a><a class=\"dropdown-item text-primary\" href=\"https://www.sagedelio.com/artwork\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FILM &amp; ART<br></a></div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/about\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><p>ABOUT&nbsp;</p></a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/store\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">STORE</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-primary\" href=\"https://sagedelio.com/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a>\n                </li></ul>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-2y",
           "_isUserblock": true,
           "_cid": "uQw9fG96K8",
